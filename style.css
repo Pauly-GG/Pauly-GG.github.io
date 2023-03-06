@@ -1,0 +1,235 @@
+/* Style for the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #52307c; /* pinkish background color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #86c995; /* greenish navbar color */
+  border-bottom: 1px solid #eee;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  color: #00a1b4; /* blueish hover color */
+}
+
+.active {
+  background-color: #1abc9c;
+}
+
+/* Style for the header */
+header {
+  background-color: #1abc9c;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Style for the meal plans section */
+#meal-plans {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #289e3f;
+  font-size: 20px;
+}
+
+#meal-plans h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#meal-plans p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+#meal-plans img {
+  max-width: 35%;
+  height: auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+#plan a {
+	margin-bottom: 50px;
+}
+
+/* Style for the banner section */
+.banner {
+  text-align: center;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.banner a {
+  display: inline-block;
+  background-color: #FFA500;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.banner a:hover {
+  background-color: #FF8C00;
+}
+
+.banner h1 {
+	font-size: 60px;
+	color: white;
+}
+
+.banner h2 {
+	color: white;
+}
+
+.banner p {
+	font-size: 20px;
+	color: black;
+}
+
+/* Style for the main content section */
+.main-content {
+  text-align: center;
+  margin-top: 10px; /* Add top margin to move the section down */
+}
+
+.main-content p {
+  font-size: 24px;
+  margin-bottom: 50px;
+  color: black;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+.main-content h2 {
+	color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style for the about section */
+
+.about {
+	width: 100%;
+	padding: 78px 0px;
+}
+
+.about img {
+	height: auto;
+	width: 420px;
+}
+
+.about-text {
+	width: 550px;
+}
+
+.main {
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about-text h1{
+	color: white;
+	font-size: 50px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.about-text h5{
+	color: white;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+span {
+	color: #289e3f;
+}
+
+.about-text p {
+	color: #ffffff;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+button {
+	background: #289e3f;
+	color: white;
+	margin-left: 200px;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	border: 3px solid #ffffff;
+	padding: 15px 30px;
+	border-radius: 30px;
+}
+
+button:hover {
+	background: black;
+	cursor: pointer;
+}
